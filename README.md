@@ -1,0 +1,2 @@
+# jameshash
+bad hashing thing
