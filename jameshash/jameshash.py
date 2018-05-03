@@ -1,3 +1,6 @@
+from __future__ import print_function
+
+
 class Hash:
     """
     Hash class for containing decimal values and generating hex string
@@ -116,4 +119,4 @@ def check_password(password, username, hash_hex):
 
 
 if __name__ == '__main__':
-    print hash_password("password", "username")
+    print(hash_password("password", "username"))
