@@ -70,7 +70,7 @@ def hash_password(password, username, blocks=32):
     if len(password) < 5:
         raise ValueError("Password must be at least 5 characters long")
 
-    padding_depth = blocks / 2 + 1
+    padding_depth = int(blocks / 2 + 1)
 
     # Pad password and username
     padded_password = password.rjust(padding_depth)
